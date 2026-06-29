@@ -8,7 +8,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/sjenneruk/qa_library_pipeline_01)
 ![CI Pipeline Badge](https://github.com/sjenneruk/qa_library_pipeline_01/actions/workflows/ci.yml/badge.svg)
 
-<mark>*Replace `YOUR_USERNAME/YOUR_REPO` with your details*</mark>
+<mark>*Replace `sjenneruk/qa_library_pipeline_01` with your details*</mark>
 
 ## Project Overview
 [TODO: Describe the library's data quality problem]
@@ -32,7 +32,7 @@ git config --global user.name "Your Name"
 ### Local Development
 ```bash
 # Clone this repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/sjenneruk/qa_library_pipeline_01.git
 cd YOUR_REPO
 
 # Create virtual environment
