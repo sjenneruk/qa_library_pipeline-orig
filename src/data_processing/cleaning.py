@@ -79,7 +79,7 @@ def handle_missing_values(df, strategy='drop', fill_value=None, columns=None):
     elif strategy == 'forward_fill':
         df[target_cols] = df[target_cols].ffill()
         logger.info("Forward filled missing values")
-        print(f"##### Forward filled missing values")
+        print("##### Forward filled missing values")
 
     else:
         raise ValueError(f"Unknown strategy: {strategy}")

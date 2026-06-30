@@ -16,8 +16,20 @@ def sample_df():
     })
 
 
-def test_example(sample_df):
+def test_example_all(sample_df):
     """Example test - shows pytest working."""
     assert len(sample_df) == 3
     assert 'id' in sample_df.columns
+    assert sample_df['id'].is_unique
+
+def test_example_len(sample_df):
+    """Example test - shows pytest working."""
+    assert len(sample_df) == 3
+
+def test_example_col_id_exists(sample_df):
+    """Example test - shows pytest working."""
+    assert 'id' in sample_df.columns
+
+def test_example_all_col_id_unique(sample_df):
+    """Example test - shows pytest working."""
     assert sample_df['id'].is_unique
