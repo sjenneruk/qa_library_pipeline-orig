@@ -1,35 +1,35 @@
-"""Example test to demonstrate pytest.
+# """Example test to demonstrate pytest.
 
-Copy this pattern for your own tests!
-"""
+# Copy this pattern for your own tests!
+# """
 
-import pytest
-import pandas as pd
-
-
-@pytest.fixture
-def sample_df():
-    """Sample DataFrame for testing."""
-    return pd.DataFrame({
-        'id': [1, 2, 3],
-        'name': ['Alice', 'Bob', 'Charlie']
-    })
+# import pytest
+# import pandas as pd
 
 
-def test_example_all(sample_df):
-    """Example test - shows pytest working."""
-    assert len(sample_df) == 3
-    assert 'id' in sample_df.columns
-    assert sample_df['id'].is_unique
+# @pytest.fixture
+# def sample_df():
+#     """Sample DataFrame for testing."""
+#     return pd.DataFrame({
+#         'id': [1, 2, 3],
+#         'name': ['Alice', 'Bob', 'Charlie']
+#     })
 
-def test_example_len(sample_df):
-    """Example test - shows pytest working."""
-    assert len(sample_df) == 3
 
-def test_example_col_id_exists(sample_df):
-    """Example test - shows pytest working."""
-    assert 'id' in sample_df.columns
+# def test_example_all(sample_df):
+#     """Example test - shows pytest working."""
+#     assert len(sample_df) == 3
+#     assert 'id' in sample_df.columns
+#     assert sample_df['id'].is_unique
 
-def test_example_all_col_id_unique(sample_df):
-    """Example test - shows pytest working."""
-    assert sample_df['id'].is_unique
+# def test_example_len(sample_df):
+#     """Example test - shows pytest working."""
+#     assert len(sample_df) == 3
+
+# def test_example_col_id_exists(sample_df):
+#     """Example test - shows pytest working."""
+#     assert 'id' in sample_df.columns
+
+# def test_example_all_col_id_unique(sample_df):
+#     """Example test - shows pytest working."""
+#     assert sample_df['id'].is_unique

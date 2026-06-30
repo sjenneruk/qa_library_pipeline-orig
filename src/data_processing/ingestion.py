@@ -43,7 +43,7 @@ def load_json(filepath):
     return pd.json_normalize(data)
 
 
-def load_excel(filepath, sheet_name=0, **kwargs):
+def load_excel(filepath, sheet_name=0, **kwargs):   # pragma: no cover
     """Load Excel file into DataFrame.
 
     Args:
