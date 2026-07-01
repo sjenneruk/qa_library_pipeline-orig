@@ -44,8 +44,3 @@ def test_load_json_invalid(tmp_path):
     bad.write_text("not valid json {{{")
     with pytest.raises(json.JSONDecodeError):
         load_json(str(bad))
-
-def test_load_excel_file_exists(file exists):
-    """Test that invalid Excel file path raises an error."""
-    df = load_excel('')
-    assert 
