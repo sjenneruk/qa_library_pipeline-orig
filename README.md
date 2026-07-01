@@ -1,14 +1,14 @@
 # Library Data Pipeline
-
+# extra line
 ![Teaching](https://img.shields.io/badge/module-DE5M5-blue)
 ![Python Version](https://img.shields.io/badge/python-3.9--3.12-blue.svg)
 
-![Open Issues](https://img.shields.io/github/issues/YOUR_USERNAME/YOUR_REPO)
-![Open PRs](https://img.shields.io/github/issues-pr/YOUR_USERNAME/YOUR_REPO)
-![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO)
-![CI Pipeline Badge](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/ci.yml/badge.svg)
+![Open Issues](https://img.shields.io/github/issues/sjenneruk/qa_library_pipeline_01)
+![Open PRs](https://img.shields.io/github/issues-pr/sjenneruk/qa_library_pipeline_01)
+![Last Commit](https://img.shields.io/github/last-commit/sjenneruk/qa_library_pipeline_01)
+![CI Pipeline Badge](https://github.com/sjenneruk/qa_library_pipeline_01/actions/workflows/ci.yml/badge.svg)
 
-<mark>*Replace `YOUR_USERNAME/YOUR_REPO` with your details*</mark>
+<mark>*Replace `sjenneruk/qa_library_pipeline_01` with your details*</mark>
 
 ## Project Overview
 [TODO: Describe the library's data quality problem]
@@ -32,7 +32,7 @@ git config --global user.name "Your Name"
 ### Local Development
 ```bash
 # Clone this repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/sjenneruk/qa_library_pipeline_01.git
 cd YOUR_REPO
 
 # Create virtual environment
